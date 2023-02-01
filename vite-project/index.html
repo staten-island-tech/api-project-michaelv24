@@ -7,7 +7,16 @@
     <title>API Project</title>
   </head>
   <body>
-    <p>What item would you like to learn about?</p>
+    <h1>Welcome to the Hyrule Compendium!</h1>
+    <div>
+      <section>
+    <form id="form" onsubmit="return false">
+     <div class="inputting">
+      <label for="name">What item would you like to learn about?</label>
+      <input type="text" id="name" name="name" required/>
+    </div>
+    <div class="submitting">    
+      <input type="submit" value="Submit" />
     <h2 id="api-response"></h2>
     <input type="text" class="input" />
     <button id="btn">Click me!</button>
