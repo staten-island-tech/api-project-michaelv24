@@ -8,20 +8,13 @@
   </head>
   <body>
     <h1>Welcome to the Hyrule Compendium!</h1>
-    <div>
-      <section>
-    <form id="form" onsubmit="return false">
-     <div class="inputting">
-      <label for="name">What item would you like to learn about?</label>
-      <input type="text" id="name" name="name" required/>
-    </div>
-    <div class="submitting">    
-      <input type="submit" value="Submit" />
-    <h2 id="api-response"></h2>
-    <input type="text" class="input" />
-    <button id="btn">Click me!</button>
+    <form id="form">
+      <label for="search-bar"></label>
+    <input name="search-bar" type="text" class="input" />
+    <button id="btn">Search!</button>
+  </form>
     <div id="app"></div>
-    <p id="api-response"></p>
+    
     <script type="module" src="./js/main.js"></script>
   </body>
 </html>

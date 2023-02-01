@@ -4,4 +4,6 @@ export const DOMSelectors = {
   title: document.querySelector(".name"),
   info: document.querySelector(".info"),
   display: document.getElementById("app"),
+  input: document.querySelector(".input"),
+  form: document.getElementById("form"),
 };
