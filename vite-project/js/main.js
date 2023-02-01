@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 import "../styles``./style.css";
+=======
+import "../styles/style.css";
+>>>>>>> Stashed changes
 import javascriptLogo from "./javascript.svg";
 import { setupCounter } from "../counter.js";
 const URL = "https://botw-compendium.herokuapp.com/api/v2";
