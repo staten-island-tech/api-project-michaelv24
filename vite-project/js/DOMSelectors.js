@@ -6,4 +6,6 @@ export const DOMSelectors = {
   display: document.getElementById("app"),
   input: document.querySelector(".input"),
   form: document.getElementById("form"),
+  error: document.getElementById("error"),
+  remove: document.getElementsByClassName("remove"),
 };

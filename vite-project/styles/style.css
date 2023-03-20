@@ -1,7 +1,7 @@
 @import url(variables.css);
 
 :root {
-  font-size: 16px;
+  font-size: 20px;
   color: black;
   background-color: #242424;
 }
@@ -26,7 +26,14 @@ text-transform: uppercase;
   border-radius: 10rem;
   transition: all 0.2s;
 }
+#app{
+  border:#242424 solid;
+  font-size:20px;
+}
 
+ul{
+  list-style-type: none;
+}
 /* button {
   border-radius: 8px;
   border: 1px solid transparent;
