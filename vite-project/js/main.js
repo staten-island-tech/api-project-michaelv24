@@ -22,7 +22,7 @@ async function Data(URL, name) {
       let image = dataArr.data.image;
       DOMSelectors.display.insertAdjacentHTML(
         "afterbegin",
-        `<ul><li class="list-name">${name}</li> <li class="list-category">${category}</li> <li class="list-description">${description}</li> <li><img src="${image}" alt="Picture of ${name}" class="image"></img></li> <li><button class="remove">remove</button></li></ul>`
+        `<div class="card"><ul><li class="list-name">${name}</li> <li class="list-category">${category}</li> <li class="list-description">${description}</li> <li><img src="${image}" alt="Picture of ${name}" class="image"></img></li> <li><button class="remove">remove</button></li></ul></div>`
       );
     }
   } catch (error) {

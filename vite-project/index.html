@@ -9,15 +9,19 @@
   <body>
     <h1>Welcome to the Hyrule Compendium!</h1>
     <form id="form">
-      <!-- <label for="search-bar"></label> -->
-    <input name="search-bar" type="text" class="input" />
-    <button id="btn">Search!</button>
-  </form>
-  <div>
-  <div id="error"></div>
-    <div id="app">
+      <label for="search-bar" aria-label="search-bar"></label>
+      <input
+        name="search-bar"
+        type="text"
+        class="input"
+        aria-label="search-bar"
+      />
+      <button id="btn">Search!</button>
+    </form>
+    <div>
+      <div id="error"></div>
+      <div id="app"></div>
     </div>
-  </div>
     <script type="module" src="./js/main.js"></script>
   </body>
 </html>

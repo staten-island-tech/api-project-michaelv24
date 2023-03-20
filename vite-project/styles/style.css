@@ -9,15 +9,15 @@
 body {
   margin: 0;
   display: flex;
-  text-align:center;
+  text-align: center;
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-  background-color: lightblue
+  background-color: lightblue;
 }
 
-.btn,{
-text-transform: uppercase;
+.btn {
+  text-transform: uppercase;
   text-decoration: none;
   padding: 1.5rem 4rem;
   margin: 1rem auto;
@@ -26,12 +26,13 @@ text-transform: uppercase;
   border-radius: 10rem;
   transition: all 0.2s;
 }
-#app{
-  border:#242424 solid;
-  font-size:20px;
+.card {
+  border: #242424 solid;
+  font-size: 20px;
+  margin: 10px;
 }
 
-ul{
+ul {
   list-style-type: none;
 }
 /* button {
@@ -52,4 +53,3 @@ button:hover {
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 } */
-
